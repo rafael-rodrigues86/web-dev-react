@@ -379,7 +379,7 @@ const Drawer = ({ isOpen, onClose }) => {
                 <span
                   className={`flex-1 ml-3 whitespace-nowrap ${currentTheme.text}`}
                 >
-                  Registro
+                  Favoritos
                 </span>
               </div>
             </Link>
