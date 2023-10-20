@@ -5,12 +5,6 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Infnet E-commerce",
-  description: "Web Page for Infnet E-commerce",
-  keywords: "web development, web design, React, JavaScript, NextJS",
-};
-
 export default function RootLayout({ children }) {
   return (
     <ThemeProvider>
